@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  
+  header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    font-size: 1.8rem;
+  }
+  
+  header .logo {
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    display: inline-block;
+    transition: all .3s ease-in;
+  }
+  
+  a:hover {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background: #000;
+    color: white;
+  }
+  
+  .hero {
+    background-color: black;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 12rem;
+    gap: 40px;
+  }
+  
+  .hero .img {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  
+  .hero .img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .hero .aboutme {
+    width: 60%;
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  
+  .hero .aboutme h2 {
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255, .6);
+    text-transform: uppercase;
+  }
+  
+  section {
+    padding: 7rem 5rem;
+  }
+  
+  section h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 4rem;
+    text-decoration: underline;
+  }
+  
+  .question {
+    display: flex;
+    border: 1px solid #888;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .question h2 {
+    font-size: 2rem;
+  }
+  
+  .question pre {
+    font-size: 1.8rem;
+  }
+  
+  .question>* {
+    /* border: 2px solid red; */
+  }
+  
+  .question .output {
+    margin-left: auto;
+    margin-right: 20rem;
+  }
+  
+  .question .output h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  
+  footer p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  
+  footer a {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-weight: 600;
+  }
